@@ -1,0 +1,1 @@
+cat krv.txt | python mapper.py | sort | python reducer.py >  wc_output.txt
